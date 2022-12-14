@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scriptjs.js"></script>
+    <script src="tabelalinhas.js"></script>
+    <title>XMLHttpRequest</title>
+</head>
+<body>
+<header>
+    <h1>XMLHttpRequest - JavaScript Puro</h1>
+    <nav><ul class="links">
+        <li><a href="">Link 1</a></li>
+        <li><a href="">Linl 2</a></li>
+        <li><a href="">Link 3</a></li>
+        <li><a href="">Link 4</a></li>
+    </ul></nav>
+    <form action="">
+    <input type="text" class="qtdinformada" id="quantidade" placeholder="Informe a quantidade de Registros da Tabela!" required>
+    <input type="button" class="btn-registro" value="Carregar Registros" onclick="carregarTabela()">
+</form>
+    <div id="divtb"></div>
+</header>
+<main>
+    
+    <table id="minhaTabela">
+        <thead>
+        <th>API</th> 
+        <th>Auth</th> 
+        <th>Category</th>    
+        <th>Cors</th>    
+        <th>Description</th>    
+        <th>HTTPS</th>    
+        <th>Link</th> 
+    </thead>
+    <tbody id="tbody">
+
+    </tbody>
+    </table>
+</main>
+<footer class="rodape"><div class="fotcop">MSilva©</div>  </footer>
+    
+</body>
+</html>
